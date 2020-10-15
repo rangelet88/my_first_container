@@ -1,6 +1,8 @@
 FROM debian
 LABEL MAINTAINER="Ramon Àngel Garcia Adell"
 
+# Comentari
+
 RUN apt-get update && \
     apt-get install -y wget libapache2-mod-php php-mysql php-gd
     
